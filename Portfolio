@@ -1,0 +1,218 @@
+  <style type="text/css">
+  html, body, .capa {
+    height: 100%;
+}
+body {
+    background: url('https://68.media.tumblr.com/6d93ad2228dc03c373b9a373fd93e285/tumblr_ou4aak6u1h1r7blt4o1_1280.jpg');
+    background-attachment: fixed;
+    font-family: Helvetica,Arial,sans-serif;
+  overflow-x:hidden;
+}
+ /* BARRA DE NAVEGAÇÃO */   
+nav.navbar-transparente {
+    padding: 15px 0px;
+    border: none;
+    background: rgba(255, 255, 255, 0.1);
+}
+.navbar-default .navbar-nav>li>a, #contact .nav li a  {
+    color:white;
+}
+.navbar-default .navbar-nav>li>a:hover, #contact .nav li a:hover {
+    background:transparent;
+    color:#a6a6a6;
+}
+.navbar-default .navbar-brand {
+color: #fff;
+}
+.navbar-default .navbar-brand:hover {
+color:grey;
+}
+/* CAPA */ 
+.capa {
+    display: table;
+    width: 100%;
+}
+.texto-capa {
+    text-align:center;
+    display:table-cell;
+    vertical-align: middle;
+    color: white;
+}
+.texto-capa>h1 {
+    font-size: 80px;
+}
+.texto-capa>p {
+    font-size: 20px;
+}
+ /* PORTFOLIO */ 
+ #portfolio {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background:white;
+   
+ }
+.row2 {
+  padding-top:20px;
+}
+.img-transition:hover {
+     -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+}
+
+ #contact {
+    padding: 40px 0px 40px 0px;
+    color: white;
+}
+.item-rede-social {
+    float: right;
+}
+footer {
+    background:#26293C;
+    color: white;
+    padding:10px 0px 10px 0px;
+}
+</style>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=VT323' rel='stylesheet'>
+    <script src="https://use.fontawesome.com/399e233deb.js"></script>
+
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Portfolio</title>
+    <link rel="icon" href="">
+
+    <!-- Bootstrap -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<nav class="nav navbar-fixed-top navbar-default navbar-transparente">
+<div class="container">
+<div class="navbar-header">
+
+<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#barra-navegacao">
+    <span class="sr-only">Alternar navegação</span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+</button> <!-- FIM BOTÃO TOGGLE -->
+
+<a href="" class="navbar-brand">
+    <span>Ananda - Web Developer</span>
+</a>
+</div> <!-- fim navbar header -->
+
+<div class="collapse navbar-collapse" id="barra-navegacao">
+    <ul class="nav navbar-nav navbar-right">
+    <li><a href="#home"><strong>Home</strong></a></li>
+    <li><a href="#portfolio"><strong>Portfolio</strong></a></li>
+    <li><a href="#contact"><strong>Contato</strong></a></li>
+</ul>
+</div>
+
+</div> <!-- fim container -->
+</nav> <!-- fim nav top fixed -->
+
+<div class="capa" id="home">
+    <div class="texto-capa">
+        <h1>Front-End Developer.</h1>
+        <hr>
+        <p>{HTML, CSS and Bootstrap skills}</p>
+    </div>
+</div>
+
+<!-- PORTFOLIO -->
+<section id="portfolio">
+<div class="container">
+    <div class="row"> <!-- ROW PRINCIPAL  -->
+
+    <div class="col-md-6">
+        <div class="row"> 
+        <div class="col-md-6"><a href=""><img src="https://www.uacinemas.com.hk/api-get-image-file?file=&type=NEWS_THUMBNAIL" class="img-transition img-responsive"></a></div>
+        <div class="col-md-6"><a href=""><img src="https://www.uacinemas.com.hk/api-get-image-file?file=&type=NEWS_THUMBNAIL" class="img-transition img-responsive"></a></div>
+      </div>
+    </div> 
+      
+  <div class="col-md-6">
+    <div class="row"> 
+        <div class="col-md-6"><a href=""><img src="https://www.uacinemas.com.hk/api-get-image-file?file=&type=NEWS_THUMBNAIL" class="img-transition img-responsive"></a></div>
+        <div class="col-md-6"><a href=""><img src="https://www.uacinemas.com.hk/api-get-image-file?file=&type=NEWS_THUMBNAIL" class="img-transition img-responsive"></a></div>
+      </div>
+  </div>
+      
+    </div> <!-- FIM ROW PRINCIPAL  -->
+  
+  <div class="row row2"> <!-- ROW PRINCIPAL  -->
+
+    <div class="col-md-6">
+        <div class="row"> 
+        <div class="col-md-6"><a href=""><img src="https://www.uacinemas.com.hk/api-get-image-file?file=&type=NEWS_THUMBNAIL" class="img-transition img-responsive"></a></div>
+        <div class="col-md-6"><a href=""><img src="https://www.uacinemas.com.hk/api-get-image-file?file=&type=NEWS_THUMBNAIL" class="img-transition img-responsive"></a></div>
+      </div>
+    </div> 
+      
+  <div class="col-md-6">
+    <div class="row"> 
+        <div class="col-md-6"><a href=""><img src="https://www.uacinemas.com.hk/api-get-image-file?file=&type=NEWS_THUMBNAIL" class="img-transition img-responsive"></a></div>
+        <div class="col-md-6"><a href=""><img src="https://www.uacinemas.com.hk/api-get-image-file?file=&type=NEWS_THUMBNAIL" class="img-transition img-responsive"></a></div>
+      </div>
+  </div>
+      
+    </div> <!-- FIM ROW PRINCIPAL  -->
+
+</div>    
+</section> <!-- FIM PORTFOLIO -->
+
+<section id="contact">
+    <div class="container">
+        <!-- row 1-->
+        <div class="row">
+            <div class="col-md-6">
+                <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+
+            <div class="col-md-3">
+                <ul class="nav">
+                    <li><strong>Email:ananda_rocha@hotmail.com</strong></li>
+                    <li><strong>Cellphone: XXXX-XXXX</strong></li>
+                </ul>
+            </div>
+
+             <div class="col-md-3">
+                <ul class="nav">
+                    <li class="item-rede-social"><a href=""><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a></li>
+                    <li class="item-rede-social"><a href=""><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a></li>
+                    <li class="item-rede-social"><a href=""><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+        </div> <!-- fim row 1-->
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                Ananda Torquato - Web Developer
+            </div>
+        </div>
+    </div>
+</footer>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
